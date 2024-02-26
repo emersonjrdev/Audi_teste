@@ -5,7 +5,7 @@
 }
 
 body {
-    width: 95%;
+    overflow-x: hidden;
 }
 
 .audi {
@@ -86,13 +86,17 @@ body {
 }
 
 .tudo {
-    display: flex;
+    background-image: url(https://www.audi.com.br/content/dam/nemo/br/Home/Banners/fevereiro-2024/homeQ8.jpg?imwidth=1920);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
 }
 
 .texto2 {
-    margin-top: 60px;
-    margin-left: -98%;
+    position: absolute;
     color: white;
+    padding: 40px;
 }
 
 .button4:hover {
@@ -103,6 +107,128 @@ body {
 }
 
 .button4:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+.button5 {
+    appearance: none;
+    background-color: black;
+    border: 0.125em solid #584e4e;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 3.75em;
+    min-width: 0;
+    outline: none;
+    padding: 1em 2.3em;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+}
+
+
+.button5:disabled {
+    pointer-events: none;
+}
+
+.button5:hover {
+    color: #fff;
+    background-color: #494040;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+
+.button5:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+.hibrido {
+    background-image: url(https://www.audi.com.br/content/dam/nemo/br/models/Q5/Q5-2024/Homepage/Q5-home.jpg?imwidth=1920);
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+}
+
+.texto5 {
+    color: white;
+    position: absolute;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button6 {
+    appearance: none;
+    background-color: rgb(255, 255, 255);
+    border: 0.125em solid #ffffff;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 3.75em;
+    min-width: 0;
+    outline: none;
+    padding: 1em 2.3em;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+}
+
+
+.button6:disabled {
+    pointer-events: none;
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    height: 400px;
+    margin-left: 0;
+}
+
+footer ul {
+    font-family: monospace;
+}
+
+.footer2 {
+    bottom: 0;
+    position: absolute;
+    left: 43%;
+}
+
+.cor {
+    background-color: #000000;
+}
+
+
+.button6:hover {
+    color: #000000;
+    background-color: #ccbcbc;
+    box-shadow: rgba(255, 255, 255, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+
+.button6:active {
     box-shadow: none;
     transform: translateY(0);
 }
@@ -152,8 +278,7 @@ body {
 
 .texto {
     text-align: center;
-    margin-top: 60px;
-    padding: 15px;
+    margin-bottom: 100px;
 }
 
 .botoes {
@@ -214,8 +339,8 @@ body {
     color: #fff;
     padding: 30px;
     height: 300px;
-    width: 109%;
 }
+
 
 .etron h1 {
     margin-top: 60px;
@@ -224,7 +349,16 @@ body {
 }
 
 .etron2 {
-    display: flex;
+    background-image: url(https://www.audi.com.br/content/dam/nemo/br/models/e-tron/sportback/SQ8-sportback-e-tron-home.jpg?imwidth=1920);
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+}
+
+.texto4 {
+    position: absolute;
+    padding: 60px;
+    align-items: center;
 }
 
 
